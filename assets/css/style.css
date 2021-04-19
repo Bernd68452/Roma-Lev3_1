@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap");
 /* font-family: 'Roboto', sans-serif; */
 /* font-family: 'Mr Dafoe', cursive; */
-/* Farbe: #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff */
+/* Colors: #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff */
 
 @font-face {
   font-family: santioblack;
@@ -48,11 +48,8 @@ header > img {
 }
 
 header > div, 
-#hero h1,
-#info span,
-#workers span,
-#pay span,
-#health span {
+#hero h1, #info span, #workers span, #pay span, #health span
+ {
   color: #fff;
 }
 
