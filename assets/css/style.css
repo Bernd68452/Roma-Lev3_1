@@ -47,7 +47,7 @@ header > img {
   margin-right: 8px;
 }
 
-header > div,
+header > div, 
 #hero h1,
 #info span,
 #workers span,
@@ -60,9 +60,8 @@ header > div {
   border-bottom: 2px solid #e7bc0e;
 }
 
-#hero > h1,
-#workers h1,
-h4 {
+#hero > h1, #workers h1, h4
+ {
   font-family: santio1;
 }
 
@@ -92,31 +91,32 @@ h4 {
   padding: 0 4rem 0 4rem;
 }
 
-#workers img,
-#pay img,
-#health img {
+#workers img, #pay img, #health img
+
+ {
   width: 150px;
   height: 150px;
 }
 
-#workers h1,
-#health h1 {
+#workers h1, #health h1
+ {
   font-size: 8rem;
   margin-top: 6rem;
   color: #e7bc0e;
 }
 
-#workers h4,
-#health h4 {
+#workers h4, #health h4
+ {
   color: #e7bc0e;
   font-size: 2rem;
   padding: 1rem 0 20vh 0;
 }
 
-#workers span,
-#pay span,
-#health span {
+#workers span, #pay span, #health span
+ {
   background-color: #000;
   display: inline-block;
   line-height: 2rem;
 }
+
+
