@@ -94,6 +94,12 @@ div:hover {
   padding: 0 4rem 0 4rem;
 }
 
+img {
+    width: 150px;
+    height: 150px;
+  }
+
+
 #workers img, #pay img, #health img
 
  {
