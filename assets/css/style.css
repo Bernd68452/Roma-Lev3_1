@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap");
-/* font-family: 'Roboto', sans-serif; */
-/* font-family: 'Mr Dafoe', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Roboto:wght@300;500&display=swap');
+
+/* font-family: 'Roboto', sans-serif; 'Mr Dafoe', cursive;*/
+
 /* Colors: #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff */
 
 @font-face {
@@ -80,6 +80,7 @@ div:hover {
   font-size: 2.5rem;
   margin-top: 5rem;
 }
+
 
 #info aside {
   width: 68%;
