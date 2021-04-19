@@ -29,7 +29,7 @@ body {
 }
 
 #start {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("../img/cleo-topper.jpg") no-repeat center/cover;
   background-attachment: fixed;
   padding: 1rem 6rem 0 6rem;
