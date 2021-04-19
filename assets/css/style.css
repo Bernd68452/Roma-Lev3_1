@@ -55,7 +55,13 @@ header > div,
 
 header > div {
   border-bottom: 2px solid #e7bc0e;
+  
 }
+
+div:hover {
+    color: chartreuse;
+}
+
 
 #hero > h1, #workers h1, h4
  {
@@ -115,5 +121,4 @@ header > div {
   display: inline-block;
   line-height: 2rem;
 }
-
 
