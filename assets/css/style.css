@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap");
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Mr Dafoe', cursive; */
+/* Farbe: #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff */
+
+@font-face {
+  font-family: santioblack;
+  src: url("./SANTIO/OTP/Santio\ Black.otf");
+}
+@font-face {
+  font-family: santioregular;
+  src: url("./SANTIO/OTP/Santio\ regular.otf");
+}
+
+html {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../img/cleo-topper.jpg") no-repeat center/cover;
+  background-attachment: fixed;
+  padding: 1rem 6rem 0 6rem;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header > img {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+header > div,
+#hero h1,
+#info span,
+#workers span,
+#pay span,
+#health span {
+  color: #fff;
+}
+
+header > div {
+  border-bottom: 2px solid #e7bc0e;
+}
+
+#hero > h1,
+#workers h1,
+h4 {
+  font-family: santio1;
+}
+
+#hero > h1 {
+  font-size: 5rem;
+  width: 40%;
+  margin-top: 32vh;
+}
+
+#hero h3 {
+  color: #e7bc0e;
+  font-family: "Mr Dafoe", cursive;
+  font-size: 2.5rem;
+  margin-top: 5rem;
+}
+
+#info aside {
+  width: 68%;
+  margin-top: 20vh;
+  font-family: santio2;
+  color: #6bc1a3;
+  font-size: 2.2rem;
+  padding: 12vh 0 42vh 7rem;
+}
+
+.workers {
+  padding: 0 4rem 0 4rem;
+}
+
+#workers img,
+#pay img,
+#health img {
+  width: 150px;
+  height: 150px;
+}
+
+#workers h1,
+#health h1 {
+  font-size: 8rem;
+  margin-top: 6rem;
+  color: #e7bc0e;
+}
+
+#workers h4,
+#health h4 {
+  color: #e7bc0e;
+  font-size: 2rem;
+  padding: 1rem 0 20vh 0;
+}
+
+#workers span,
+#pay span,
+#health span {
+  background-color: #000;
+  display: inline-block;
+  line-height: 2rem;
+}
