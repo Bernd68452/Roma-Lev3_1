@@ -28,7 +28,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-#hero {
+#start {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../img/cleo-topper.jpg") no-repeat center/cover;
   background-attachment: fixed;
@@ -48,7 +48,7 @@ header > img {
 }
 
 header > div, 
-#hero h1, #info span, #workers span, #pay span, #health span
+#start h1, #info span, #workers span, #pay span, #health span
  {
   color: #fff;
 }
@@ -63,18 +63,18 @@ div:hover {
 }
 
 
-#hero > h1, #workers h1, h4
+#start > h1, #workers h1, h4
  {
   font-family: santio1;
 }
 
-#hero > h1 {
+#start > h1 {
   font-size: 5rem;
   width: 40%;
   margin-top: 32vh;
 }
 
-#hero h3 {
+#start h3 {
   color: #e7bc0e;
   font-family: "Mr Dafoe", cursive;
   font-size: 2.5rem;
